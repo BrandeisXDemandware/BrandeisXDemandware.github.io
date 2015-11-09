@@ -15,65 +15,47 @@ color:
 people:
 - name: Wesley
   pic: 1
-  position: Lead Designer
+  position: Brandeis Univeristy 2017'
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Brian 
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+    - title: github
+      url: https://github.com/WesleyyC
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/wesleychin0919
 
 - name: Shimon
   pic: 2
-  position: Lead Marketer
+  position: Brandeis Univeristy 2016'
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+    - title: github
+      url: https://github.com/shimonm
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/shimonmazor
+
+- name: Brian
+  pic: 3
+  position: Brandeis Univeristy 2016'
+  social: 
+    - title: linkedin
+      url: https://www.linkedin.com/in/brian-luk-0a494a90
 
 - name: Jing
-  pic: 3
-  position: Lead Developer
+  pic: 4
+  position: Brandeis Univeristy MS. 2016'
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - title: github
+      url: https://github.com/ginnyzou2015
+    - title: linkedin
+      url: https://www.linkedin.com/in/jing-zou-baa2ba46
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/BrandeisXDemandware
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 415 South Street
+  - line: Waltham, MA 
 
 # Build settings
 markdown: kramdown
