@@ -15,7 +15,7 @@ color:
 people:
 - name: Wesley
   pic: 1
-  position: Brandeis Univeristy 2017'
+  position: Computer Science & Neuroscience <br> 2017'
   social:
     - title: github
       url: https://github.com/WesleyyC
@@ -24,7 +24,7 @@ people:
 
 - name: Shimon
   pic: 2
-  position: Brandeis Univeristy 2016'
+  position: Computer Science & Economic <br> 2016'
   social:
     - title: github
       url: https://github.com/shimonm
@@ -33,14 +33,14 @@ people:
 
 - name: Brian
   pic: 3
-  position: Brandeis Univeristy 2016'
+  position: Computer Science & Politic <br> 2016'
   social: 
     - title: linkedin
       url: https://www.linkedin.com/in/brian-luk-0a494a90
 
 - name: Jing
   pic: 4
-  position: Brandeis Univeristy MS. 2016'
+  position: Computer Science MS. <br> 2016'
   social:
     - title: github
       url: https://github.com/ginnyzou2015
