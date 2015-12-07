@@ -4,26 +4,52 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Technology</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted"> </h3>
                 </div>
+            </div>
+            <div class="row" >
+                <div class="col-lg-5 col-sm-6">
+                    <h3 class="section-heading-l">Beacon</h2>
+                    <p><font size="3">
+                        &emsp;&emsp;Beacons are small wireless sensors that store owners can attach to any location or object in their store. These becons broadcast tiny radio signals which customers' smartphone can receive and interpret, unlocking micro-location and contextual awareness.<br> &emsp;&emsp;With beacons, we can connect customers' online information with their in-store shopping experince and push recommendation based on their current in-store location and online shopping record. Moreover, we are able to track customers' shopping behavior and provide a better both in-store and online service by analyzing these data.
+                    </font></p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                    <img class="img-responsive center-block" src="img/tech/beacon.jpg" alt="">
+                    <h3 class="section-subheading text-muted">We use a set of great beacons from <a href="http://estimote.com/">Estimote</a> in this project and we build an <a href="https://github.com/BrandeisXDemandware/Android-App">Andriod App</a> to demo the beacon notification and location-based recommendation system.</h3>
+                </div>
+            </div>
+            <div class="row" align="center"> 
+                <h3 class="section-subheading text-muted"> </h3>
             </div>
             <div class="row">
-            {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <h3 class="section-heading-l">Interactive Map</h2>
+                    <p><font size="3">
+                        &emsp;&emsp;We designed an interactive map interface on iOS platform where customers and assistants can see each other on an interactive store map and initiate communication between each other by blending an interactive map with the location coordinate we get from beacons.<br> &emsp;&emsp; Customer can ask for help, chat with an assistant, or get a differnt size of item in the fitting room via this interface. In the same time, assistant can answer questions, initiate in-app checkout and send recommendations/sales information tailored for customer.<br> &emsp;&emsp; Moreover, this interactive map can show location and give direction for items customers are searching for or interested in, which will ease their pain in looking for item and provide a more pleasant shopping experinece.
+                    </font></p>
                 </div>
-            {% endfor %}
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <h3 class="section-subheading text-muted"> </h3>
+                    <h3 class="section-subheading text-muted"> </h3>
+                    <img class="img-responsive center-block" src="img/tech/MapDW.png"  alt="">
+                    <h3 class="section-subheading text-muted">This is a proof-of-concept <a href="https://github.com/BrandeisXDemandware/iOS-App">iOS App</a> we build to demo on integrating <a href="https://www.google.com/maps/about/partners/indoormaps/">Google Indoor Map</a> and in-door location we get from beacons.
+                </div>
             </div>
+            <div class="row" align="center"> 
+                <h3 class="section-subheading text-muted"> </h3>
+            </div>
+            <div class="row" >
+                <div class="col-lg-5 col-sm-6">
+                    <h3 class="section-heading-l">Swift In-Store Checkout</h2>
+                    <p><font size="3">
+                        &emsp;&emsp;With <a href="http://www.apple.com/apple-pay/">Apple Pay</a>, customers can checkout in-store without pulling out their credit card or even go to the counter.<br> &emsp;&emsp; Shop assistant can initiate an in-app checkout session and customers can simply pay the items with their finger print via Appla Pay. Moreover, with bar code scanner intergrated, customers can even check out the items themselves without a fuss.<br> &emsp;&emsp; As in-app payment is also coming soon for <a href="https://www.android.com/pay/">Android Pay</a>, this function will be supported on the major smart phone platforms and work for everyone.
+                    </font></p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                    <img class="img-responsive center-block" src="img/tech/apple pay.png" alt="">
+                </div>
+            </div>
+
         </div>
     </section>

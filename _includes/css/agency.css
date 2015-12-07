@@ -36,14 +36,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.color.primary }};
+    color: #0080ff ;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.color.secondary }};
+    color: #0080ff ;
 }
 
 h1,
@@ -329,6 +329,13 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+}
+
+section h2.section-heading-l {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 section h3.section-subheading {
@@ -862,3 +869,5 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
+se
+
