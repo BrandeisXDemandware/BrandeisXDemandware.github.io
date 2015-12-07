@@ -36,14 +36,14 @@ a.active {
 }
 
 a {
-    color: #0080ff ;
+    color: #3299ff ;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #0080ff ;
+    color: #3299FF;
 }
 
 h1,
@@ -335,7 +335,6 @@ section h2.section-heading-l {
     margin-top: 0px;
     margin-bottom: 15px;
     font-size: 30px;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 section h3.section-subheading {
