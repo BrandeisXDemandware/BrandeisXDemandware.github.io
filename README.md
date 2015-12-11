@@ -2,4 +2,4 @@
 
 This repository contains the code for the project landing page.
 
-![preview](http://i.imgur.com/AOkVp41.jpg)
+![preview](http://i.imgur.com/77QOfm6.jpg)
