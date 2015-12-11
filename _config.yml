@@ -49,10 +49,12 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: github
-    url: https://github.com/BrandeisXDemandware
   - title: book
     url: https://docs.google.com/document/d/1Ksh9pbWL4-uptWfTfDX25i3-ieRftw_3L348viXdIZU/edit?usp=sharing
+  - title: github
+    url: https://github.com/BrandeisXDemandware
+  - title: file-powerpoint-o
+    url: https://docs.google.com/presentation/d/1njQEBkYIHuK8F26Cz6eiJ0pW8nIaOTWOTKYby-zpAF4/edit?usp=sharing
 
 # Postal address (add as many lines as necessary)
 address:
